@@ -32,7 +32,7 @@ Concrete Creator -> Resume builder
 
 ## Example
 
-![alt text](http://url/to/img.png)
+![alt text](Design-Pattern.bmp)
 
 
 
