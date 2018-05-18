@@ -6,11 +6,10 @@ namespace Resume.Classes
 {
    public class Experience : Page
     {
+        /* Concrete Class of pages
+         */
+
         public string CompanyName { get; set; }
-
-        //public string City { get; set; }
-
-       // public string Country { get; set; }
 
         public string JobTitle { get; set; }
 

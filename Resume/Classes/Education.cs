@@ -6,6 +6,9 @@ namespace Resume.Classes
 {
     public class Education : Page
     {
+        /* Concrete Class of Pages
+         */
+
         public string School { get; set; }
 
         public string Degree { get; set; }

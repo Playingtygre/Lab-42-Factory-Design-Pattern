@@ -23,7 +23,7 @@ namespace Resume
             Console.WriteLine("how would you describe yourself???");
 
             string summary = Console.ReadLine();
-
+            Console.Clear();
 
             Profile profile = new Profile
             {
@@ -55,7 +55,7 @@ namespace Resume
                 JobTitle = jobtitle,
                 JobDescription = jobdescription
             };
-
+            Console.Clear();
             Console.WriteLine("One question about your education");
             Console.WriteLine("What was your last education experience");
 
@@ -65,12 +65,18 @@ namespace Resume
 
             string degree = Console.ReadLine();
 
+            Console.WriteLine("What year was your degree?");
+
+            int gradyear = Int32.Parse(Console.ReadLine());
+
             Education education = new Education
             {
                 School = school,
-                Degree = degree
+                Degree = degree,
+                GraduationYear = gradyear
             };
 
+            
             ResumePaper resume = new ResumePaper
             {
                 Profile = profile,
@@ -80,9 +86,19 @@ namespace Resume
 
             resume.CreatePage();
 
-
-
+            Console.Clear();
+            Console.WriteLine($"\n\t-----------------------------------------------------------------------------------------");
+            Console.WriteLine($"\n\t Console Log Resume Builder");
             Console.WriteLine($"\n\t {resume.Profile.ApplicantName}");
+            Console.WriteLine($"\n\t {resume.Profile.Email} || {resume.Profile.Summary}");
+            Console.WriteLine($"\n\t---------------------------------------My Work Experience-------------------------------------------");
+            Console.WriteLine($"\n\t {resume.Experience.CompanyName}");
+            Console.WriteLine($"\n\t {resume.Experience.JobTitle} || {resume.Experience.JobDescription}");
+            Console.WriteLine($"\n\t---------------------------------------My Education Background--------------------------------");
+            Console.WriteLine($"\n\t {resume.Education.School}");
+            Console.WriteLine($"\n\t {resume.Education.School} || {resume.Education.Degree} || {resume.Education.GraduationYear}");
+            Console.WriteLine($"\n\t-----------------------------------------------------------------------------------------");
+
             //Console.WriteLine($"{resume.Profile.ApplicantName}");
             Console.ReadLine();
             
