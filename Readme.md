@@ -15,10 +15,10 @@ Build a basic resume.
 
  
  
- i. Product-> This is the the page creator.
- ii. Concrete Products - Work History, Experience, Profiles,
- iii. Creator -> Document Class
- iv. Concrete Creator - > Resume Page
+ i. Product-> This is the the page creator. <br>
+ ii. Concrete Products - Work History, Experience, Profiles, <br>
+ iii. Creator -> Document Class <br>
+ iv. Concrete Creator - > Resume Page <br>
 
 ## Factory Design
 <li> Concrete Classes-> Documents;
