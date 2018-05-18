@@ -8,21 +8,20 @@ Factory is very similar to interfaces in which there are implementation of items
 Tiger Hsu
 
 ## Version:
-1.0.0 
+2.0.0 
 
 ## Overview
 Build a basic resume.
-Product-> 
-Concrete Product ->  
-Creator->
-Concrete Creator ->
+Product-> This product is a reusme
+Concrete Product -> Experience, Work History, Profile, are indivudual items which them can become a much larger
+in the page class; they are inherited to the 
+Creator-> Document <List> is the Creator 
+Concrete Creator -> Resume builder
 
 ## Factory Design
 <li> Concrete Classes-> Documents;
-<li> Factory -> This creates the 
-<li> Concrete -> implementing all the 
-<li> Need 
-
+<li> Factory -> This creates the new instances of Documents.  public List <Page> create a new <Page>
+<li> Concrete -> implementing all the the items a creator has.
 
 
 ## Getting Started
@@ -42,8 +41,6 @@ Concrete Creator ->
  - MVC architectural design pattern.
  - Entity Framework - built in Visual Studio
 
-
-
 ## Resources
 StackoverFlow
 Microsoft Docs
@@ -51,7 +48,3 @@ Microsoft Docs
 ## License
 MIT License
 
-
-## Change Log
-
-01-01-2001 4:59pm
