@@ -21,7 +21,7 @@ Concrete Creator -> Resume builder
 ## Factory Design
 <li> Concrete Classes-> Documents;
 <li> Factory -> This creates the new instances of Documents.  public List <Page> create a new <Page>
-<li> Concrete -> implementing all the the items a creator has.
+<li> Concrete -> Concreate classes are the Letter references and Work history.
 
 
 ## Getting Started
