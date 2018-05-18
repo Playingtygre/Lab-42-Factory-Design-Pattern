@@ -12,11 +12,13 @@ Tiger Hsu
 
 ## Overview
 Build a basic resume.
-Product-> This product is a reusme
-Concrete Product -> Experience, Work History, Profile, are indivudual items which them can become a much larger
-in the page class; they are inherited to the 
-Creator-> Document <List> is the Creator 
-Concrete Creator -> Resume builder
+
+ 
+ 
+ i. Product-> This is the the page creator.
+ ii. Concrete Products - Work History, Experience, Profiles,
+ iii. Creator -> Document Class
+ iv. Concrete Creator - > Resume Page
 
 ## Factory Design
 <li> Concrete Classes-> Documents;
@@ -31,10 +33,7 @@ Concrete Creator -> Resume builder
 5. The website will run on your default web browser routing to the main home page.
 
 ## Example
-
 ![alt text](Design-Pattern.bmp)
-
-
 
 ## Architecture
  - C# ASP.NET Core application.
