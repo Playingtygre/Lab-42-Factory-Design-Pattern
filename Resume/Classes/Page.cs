@@ -6,9 +6,9 @@ namespace Resume.Classes
 {
     public class Page
     {
-        public string Color { get; set; }
+       // public string Color { get; set; }
 
-        public bool Lined { get; set; }
+        //public bool Lined { get; set; }
 
         public Profile Profile { get; set; }
 

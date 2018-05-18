@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Resume.Classes
 {
+    /* 
+     */
+
     public abstract class Document
     {
         public Profile Profile { get; set; }
@@ -17,12 +20,17 @@ namespace Resume.Classes
         public Education Education { get; set; }
 
 
+        /// <summary>
+        /// This is the factory
+        /// </summary>
         public List<Page> Page = new List<Page>();
 
         public abstract void CreatePage();
 
         public Document Factory(ResumeStyle resumeStyle)
         {
+
+
             switch (resumeStyle)
             {
                 case ResumeStyle.CleanResume:
